@@ -7,8 +7,8 @@ import { Product } from '../model/product';
    providedIn:'root' 
 })
 export class Productservice {
-    showProductUrl='http://localhost:8080/products/showallProducts';
-    addProductUrl='http://localhost:8080/products/addProduct';
+    showProductUrl='http://localhost:8080/products/showallproducts';
+    addProductUrl='http://localhost:8080/products/addproduct';
     constructor(private http:HttpClient){}
 
     getProducts():Observable<Product[]>{
