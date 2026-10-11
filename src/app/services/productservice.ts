@@ -7,7 +7,7 @@ import { Product } from '../model/product';
    providedIn:'root' 
 })
 export class Productservice {
-    showProductUrl='http://localhost:8080/products/showAllProducts';
+    showProductUrl='http://localhost:8080/products/showallProducts';
     addProductUrl='http://localhost:8080/products/addProduct';
     constructor(private http:HttpClient){}
 
